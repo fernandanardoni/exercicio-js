@@ -7,7 +7,7 @@ const votos = readline.createInterface({
 });
 
 
-function rl() {
+function getVotes() {
     votos.question("Digite o número de eleitores \n", function (total) {
 
         votos.question("Digite o número de votos em branco \n", function (brancos = 0) {
@@ -46,4 +46,4 @@ function rl() {
       });
 };
 
-rl();
+getVotes();
