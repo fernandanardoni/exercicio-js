@@ -17,7 +17,7 @@ function getAge() {
         const months = parseInt(fullAge[1]) * 30;
         const days = parseInt(fullAge[2]);
 
-        const total = years + months + days
+        const total = years + months + days;
 
         console.log(`Você tem ${total} dias de idade`);
 
